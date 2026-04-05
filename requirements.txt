@@ -1,0 +1,7 @@
+Flask
+flask-cors
+firebase-admin
+google-generativeai
+gspread
+google-auth
+python-dotenv
