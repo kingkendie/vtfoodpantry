@@ -1,0 +1,33 @@
+
+body {
+  margin: 0;
+  padding-top: 88px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #881e42;
+  background-size: auto 100%;
+  image-rendering: pixelated;
+  background-repeat: repeat-x;
+  background-position: center;
+  border-bottom: 4px solid black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+@font-face {
+    font-family: pixelBold;
+    src: url('/OtherPixelFont.otf');
+}
