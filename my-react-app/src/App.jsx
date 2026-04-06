@@ -1,4 +1,5 @@
 import './App.css'
+import vtPantryLogo from './assets/VTPantry.png'
 
 function App() {
 
@@ -15,8 +16,8 @@ function NavBar() {
   return (
     <>
       <nav className="navbar">
-        <a href="/index.html">
-          <img src="../public/VTPantry.png" style={{ height: "60px" }} /></a>
+        <a href="/index.html"><img src={vtPantryLogo} style={{ height: "60px" }} /></a>
+        <a href="/index.html">Inventory</a>
       </nav>
 
     </>

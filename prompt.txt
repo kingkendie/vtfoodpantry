@@ -1,0 +1,10 @@
+The VT Food Pantry runs two programs (open-hours pantry and a grocery setup)
+and currently tracks everything in a physical notebook re-entered manually into Excel.
+Build them a simple inventory system where staff can log incoming food by name, vendor,
+weight, units, category, unit or weight pricing, and program assignment — and
+quickly add more stock by looking up an existing item rather than re-entering it. 
+The system should support vendor invoice tracking, periodic inventory checkpoints
+that set a new baseline, transfers between the two programs, and an end-of-year \
+rollover that calculates totals and carries remaining stock forward. Hard constraints:
+no barcodes, no student checkout tracking. The best solution is one a non-technical 
+volunteer can actually use.
