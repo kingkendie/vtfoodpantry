@@ -1,0 +1,9 @@
+Flask
+flask-cors
+firebase-admin
+google-genai
+gspread
+google-auth
+python-dotenv
+flask-limiter
+requests
