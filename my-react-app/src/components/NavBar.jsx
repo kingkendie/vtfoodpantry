@@ -7,6 +7,7 @@ const NAV_ITEMS = [
   { to: '/add',        icon: '➕', label: 'Add / Restock' },
   { to: '/vendors',    icon: '🏭', label: 'Vendors'     },
   { to: '/operations', icon: '⚙️', label: 'Operations'  },
+  { to: '/staff',      icon: '👥', label: 'Staff'       },
 ];
 
 export default function NavBar() {

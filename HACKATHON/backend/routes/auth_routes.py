@@ -51,10 +51,9 @@ def login():
         return jsonify({"error": str(e)}), 500
 
 @auth_bp.route('/register', methods=['POST'])
-@staff_required
 def register():
     """
-    Register endpoint. Staff only.
+    Register endpoint.
     Accepts: { "email": "...", "password": "..." }
     """
     try:

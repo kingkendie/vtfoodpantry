@@ -8,6 +8,7 @@ import Inventory from './pages/Inventory.jsx';
 import AddItem from './pages/AddItem.jsx';
 import Vendors from './pages/Vendors.jsx';
 import Operations from './pages/Operations.jsx';
+import Staff from './pages/Staff.jsx';
 
 // Auth context
 const AuthContext = createContext(null);
@@ -24,6 +25,7 @@ function ProtectedLayout() {
           <Route path="/add"        element={<AddItem />} />
           <Route path="/vendors"    element={<Vendors />} />
           <Route path="/operations" element={<Operations />} />
+          <Route path="/staff"      element={<Staff />} />
           <Route path="*"           element={<Navigate to="/" replace />} />
         </Routes>
       </main>

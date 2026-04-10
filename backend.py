@@ -1,4 +1,0 @@
-elloworld()
-{
-    print("hello world")
-}
